@@ -1,0 +1,5 @@
+Bill breakdown: 
+soupe:                    ...$3.99
+Salade:                   ...$2
+tip:                      ...$5
+total:                    ...$10.99

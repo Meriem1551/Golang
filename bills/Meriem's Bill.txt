@@ -1,0 +1,7 @@
+Bill breakdown: 
+Dorayaki:                 ...$2.99
+Sushi:                    ...$5.99
+Ramen:                    ...$7.5
+Curry:                    ...$4
+tip:                      ...$10
+total:                    ...$30.48
