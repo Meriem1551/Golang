@@ -1,0 +1,45 @@
+Go: is a fast, statically typed, compiled language
+Go: is a general purpose language: creating web app, rest Api to cloud services
+Go has built-in testing support
+Go: is an ool (in it's own way)
+ to run a go program:
+ open a terminal and type " go run and file name"
+
+* variables:
+var name type;
+var name = something
+name := something //for declaring and initializing it for the first time, but we can'i using it outside the func
+
+check this doc for learning about bits and memory in go "https://go.dev/ref/spec#Numeric_types"
+
+Some fmt methods:
+Print("hello")//dont add a new line but we can adding it manually with \n
+
+*ARRAYS
+var name [number of items]type
+to initialize it:
+var name [number of items]type = [number of items]type{items value}
+shortcut:
+var name =  [number of items]type{items value}
+
+//sort package
+sort.searchInts: if the item does no existe it returns len+1
+
+*Loops:
+Go use always for as while and for 
+if we dont want to use the index variable we can write 
+    for _, value :=....
+even if we change the values inside the loop it doesn't change the original slice (because it's local)
+
+* Functions
+function can take another function a sa param
+we just passing the func name
+
+to return a value from a func 
+ func name (param) return type{}
+
+to return multiple values
+we add the return type of those values as much time as the num of them
+ex if a function returns 3 values so
+     func name (param) (type1, type2, type3) {}
+    when w call this func we do v1, v2, v3 <how many values this func returns> := func-name(values)
