@@ -43,3 +43,42 @@ we add the return type of those values as much time as the num of them
 ex if a function returns 3 values so
      func name (param) (type1, type2, type3) {}
     when w call this func we do v1, v2, v3 <how many values this func returns> := func-name(values)
+We can share variables:
+main => file
+file => main
+file => file
+// but must have the same package (main)
+// and the variables must be declared outside functions
+
+* Map *
+
+varname := map[key type]value-type{}
+//updating a map item
+namemap[key] = <>
+
+* Pointers*
+//Pass by value
+Go makes copy of value when passed into functions and stored into memory location
+
+Go has 2 groups of type
+
+  Group a  | Group b
+Non-pointer  pointer wrapper
+-----------|----------
+  string   |  Slices
+  ints     |  maps
+  floats   |  functions
+  booleans |
+  Arrays   |
+  struct   |
+           |   
+go create  | go create a copy of the pointer 
+           |  pointed to the var and change the original one
+a copy of  |
+the value  |
+and change 
+this copy
+* RECEIVER FUNC*
+create a normal func but before the name add (vvar-name struct-type)
+and then call it with struct var: mybill.func-name
+
